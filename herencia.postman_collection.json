@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "2db72e8e-e576-4647-824a-961c280472e5",
+		"name": "herencia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23567747"
+	},
+	"item": [
+		{
+			"name": "Lista de alumnos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nuevos alumnos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/nuevo_ingreso",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"nuevo_ingreso"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filtrado por matricula",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/estudiante/MRID21066",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"estudiante",
+						"MRID21066"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
